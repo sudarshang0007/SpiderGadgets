@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    text-shadow: 0px 0px 2px white;
+    font-family: 'Orbitron', sans-serif !important;
+}
+
+.btn{
+    background: transparent;
+    color: red;
+    border: 1px solid red;
+    box-shadow: 0px 0px 10px red inset;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 15px red inset;
+}
