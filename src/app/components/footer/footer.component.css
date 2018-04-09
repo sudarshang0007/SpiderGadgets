@@ -1,6 +1,9 @@
 .fh5co-footer{
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
+    text-shadow: none;
+    color: #09ef1d;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }

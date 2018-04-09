@@ -1,16 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-    text-shadow: 0px 0px 2px white;
+
+body {
+    /* text-shadow: 0px 0px 2px white; */
     font-family: 'Orbitron', sans-serif !important;
+    letter-spacing: 2px !important;
 }
 
-.btn{
+.btn {
     background: transparent;
     color: red;
     border: 1px solid red;
     box-shadow: 0px 0px 10px red inset;
 }
 
-.btn:hover{
+.btn:hover {
     box-shadow: 0px 0px 15px red inset;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 95%;
+    }
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #00ff4c70;
+    border-color: #00ff4c;
+    box-shadow: 0px 0px 15px #ffffff91 inset;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00ff4c70;
+    border-color: #00ff4c;
+    box-shadow: 0px 0px 5px #00ff4c inset;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #00ff4c70;
+    border-color: #05fd4a;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #12ff93;
 }
